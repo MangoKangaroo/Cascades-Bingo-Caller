@@ -3,6 +3,7 @@
 #include <random>
 #include <string>
 #include <sstream>
+#include "clip/clip.h"
 #ifdef _WIN32
 #include <intrin.h>
 #else
@@ -29,6 +30,8 @@ void PullNumber(std::vector<int>& NumberVector) {
     pull = "Call " + std::to_string(76 - NumberVector.size()) + ": ";
 
     AddBingoLetter(numVal,pull);
+
+    clip::set_text(pull);
 
     std::cout << pull;
 
