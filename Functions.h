@@ -1,3 +1,11 @@
+/*
+ *  Cascades Bingo Caller, a text-based Bingo caller with some helper features.
+ *  Copyright (C) 2021  Tony Prindel
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
 #include <vector>
 #include <string>
 

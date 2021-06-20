@@ -1,3 +1,11 @@
+/*
+ *  Cascades Bingo Caller, a text-based Bingo caller with some helper features.
+ *  Copyright (C) 2021  Tony Prindel
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
 #include <iostream>
 #include <vector>
 #include <conio.h>
@@ -13,7 +21,8 @@ int main() {
     GenerateNumberVector(NumberVector);
     char input;
 
-    std::cout << "CASCADES BINGO CALLER 3: Boogaloo Electric\n\n"
+    std::cout << "CASCADES BINGO CALLER 3: Boogaloo Electric\n"
+                 "By Tony Prindel, Copyright 2021\n\n"
                  "Controls (case doesn't matter):\n"
                  "Call number: Space\n"
                  "Enter checking mode: F\n"
